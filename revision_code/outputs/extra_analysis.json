@@ -1,0 +1,257 @@
+{
+ "split": {
+  "B1 Rule-based ladder": {
+   "kept": [
+    114,
+    0.7334777351829959
+   ],
+   "liq_sold_later": [
+    28,
+    -13.960820289587723
+   ],
+   "liq_no_later_sale": [
+    226,
+    3.6592206747260443
+   ],
+   "liq_low_stock_firm_reordered": [
+    1,
+    -8.995581115687546
+   ]
+  },
+  "B3c Newsvendor + clearance ladder": {
+   "kept": [
+    110,
+    -27.151958720115495
+   ],
+   "liq_sold_later": [
+    28,
+    -13.960820289587723
+   ],
+   "liq_no_later_sale": [
+    230,
+    3.0794559242874833
+   ],
+   "liq_low_stock_firm_reordered": [
+    1,
+    -8.995581115687546
+   ]
+  },
+  "B4c (s,S) + clearance ladder": {
+   "kept": [
+    99,
+    -28.594739966727662
+   ],
+   "liq_sold_later": [
+    28,
+    -13.987976543606097
+   ],
+   "liq_no_later_sale": [
+    241,
+    2.378813693224425
+   ],
+   "liq_low_stock_firm_reordered": [
+    1,
+    -8.995581115687546
+   ]
+  },
+  "B5 Multistage predict-then-optimize": {
+   "kept": [
+    132,
+    -14.190328014646665
+   ],
+   "liq_sold_later": [
+    24,
+    -10.275879150862627
+   ],
+   "liq_no_later_sale": [
+    212,
+    4.932684504370788
+   ],
+   "liq_low_stock_firm_reordered": [
+    1,
+    -8.991733726758948
+   ]
+  },
+  "B5, firm's orders kept": {
+   "kept": [
+    129,
+    -1.365386902807323
+   ],
+   "liq_sold_later": [
+    28,
+    -15.913754746731712
+   ],
+   "liq_no_later_sale": [
+    211,
+    5.589589319690364
+   ],
+   "liq_low_stock_firm_reordered": [
+    1,
+    -8.991733726758948
+   ]
+  },
+  "B5, purchasing only": {
+   "kept": [
+    368,
+    -21.082004081664106
+   ],
+   "liq_sold_later": [
+    0,
+    0.0
+   ],
+   "liq_no_later_sale": [
+    0,
+    0.0
+   ],
+   "liq_low_stock_firm_reordered": [
+    0,
+    0.0
+   ]
+  },
+  "QMIX": {
+   "kept": [
+    276.3,
+    -43.96378420077086
+   ],
+   "liq_sold_later": [
+    10.1,
+    -3.544266996541758
+   ],
+   "liq_no_later_sale": [
+    81.6,
+    1.7508060586489678
+   ],
+   "liq_low_stock_firm_reordered": [
+    0.3,
+    -2.6976845519770456
+   ]
+  },
+  "MAPPO": {
+   "kept": [
+    234.6,
+    -57.683947067398854
+   ],
+   "liq_sold_later": [
+    18.8,
+    -7.103206317797481
+   ],
+   "liq_no_later_sale": [
+    114.6,
+    3.308510650317257
+   ],
+   "liq_low_stock_firm_reordered": [
+    0.7,
+    -6.294213608731265
+   ]
+  },
+  "MADDPG": {
+   "kept": [
+    246.1,
+    -54.351350991428056
+   ],
+   "liq_sold_later": [
+    13.9,
+    -4.116295940676162
+   ],
+   "liq_no_later_sale": [
+    108.0,
+    1.9296495371073106
+   ],
+   "liq_low_stock_firm_reordered": [
+    0.4,
+    -3.5966934907035792
+   ]
+  },
+  "QMIX without structural covariates": {
+   "kept": [
+    281.1,
+    -43.63733479385252
+   ],
+   "liq_sold_later": [
+    11.2,
+    -3.4346738435355775
+   ],
+   "liq_no_later_sale": [
+    75.7,
+    1.8506407211924532
+   ],
+   "liq_low_stock_firm_reordered": [
+    0.3,
+    -2.6975201180276844
+   ]
+  },
+  "QMIX, two agents (automatic flag)": {
+   "kept": [
+    218.0,
+    -55.532265258774125
+   ],
+   "liq_sold_later": [
+    14.2,
+    -5.116133716105415
+   ],
+   "liq_no_later_sale": [
+    135.8,
+    1.063294346680912
+   ],
+   "liq_low_stock_firm_reordered": [
+    0.5,
+    -4.495949080354155
+   ]
+  }
+ },
+ "flags": {
+  "QMIX": {
+   "auc_flag_mean": 0.46966700614813367,
+   "auc_flag_min": 0.25754665099349516,
+   "auc_flag_max": 0.6619539198084978,
+   "auc_phat_mean": 0.9203855457591118,
+   "blocked_share_mean": 0.7551973058959365,
+   "blocked_min": 0.5307138904261206,
+   "blocked_max": 0.9243300052548608,
+   "seeds_one_flag_95": 0
+  },
+  "MAPPO": {
+   "auc_flag_mean": 0.40503412110793074,
+   "auc_flag_min": 0.2727263820222958,
+   "auc_flag_max": 0.6314267521807408,
+   "auc_phat_mean": 0.9204087157149043,
+   "blocked_share_mean": 0.5706387931552382,
+   "blocked_min": 0.014925373134328401,
+   "blocked_max": 1.0,
+   "seeds_one_flag_95": 0
+  },
+  "MADDPG": {
+   "auc_flag_mean": 0.47949771761068927,
+   "auc_flag_min": 0.32842206465569046,
+   "auc_flag_max": 0.5931935311391611,
+   "auc_phat_mean": 0.9203460983091716,
+   "blocked_share_mean": 0.5457930459279178,
+   "blocked_min": 0.2091222030981067,
+   "blocked_max": 0.8826507132995858,
+   "seeds_one_flag_95": 0
+  },
+  "QMIX without structural covariates": {
+   "auc_flag_mean": 0.44912200928823437,
+   "auc_flag_min": 0.3780814907847486,
+   "auc_flag_max": 0.5,
+   "auc_phat_mean": 0.9069805155724386,
+   "blocked_share_mean": 0.7462682967607737,
+   "blocked_min": 0.3755364806866953,
+   "blocked_max": 1.0,
+   "seeds_one_flag_95": 1
+  },
+  "QMIX, two agents (automatic flag)": {
+   "auc_flag_mean": 0.4376122612259351,
+   "auc_flag_min": 0.33672835065678924,
+   "auc_flag_max": 0.4981171127145198,
+   "auc_phat_mean": 0.9173142618917229,
+   "blocked_share_mean": 0.0,
+   "blocked_min": 0.0,
+   "blocked_max": 0.0,
+   "seeds_one_flag_95": 0
+  },
+  "B1 Rule-based ladder": {
+   "auc_flag_mean": 0.732765856623147
+  }
+ }
+}

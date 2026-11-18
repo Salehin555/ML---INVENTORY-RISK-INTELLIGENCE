@@ -1,0 +1,9 @@
+# proprietary ERP data and per-SKU derivatives are not published
+*.zip
+!legacy_submitted_version/pipeline_outputs_submitted.zip
+data 2024/
+data 2025/
+revision_code/outputs/sim2_inputs.pkl
+revision_code/outputs/sim3_actions_base.pkl
+revision_code/outputs/sim3_eval_*.csv
+__pycache__/

@@ -1,0 +1,126 @@
+{
+ "share_all_180": {
+  "calendar": 0.0,
+  "demand_inventory": 0.29078972339630127,
+  "financial": 0.29651474952697754,
+  "structural": 0.41269561648368835
+ },
+ "share_top22": {
+  "calendar": 0.0,
+  "demand_inventory": 0.20970773696899414,
+  "financial": 0.220965176820755,
+  "structural": 0.5693270564079285
+ },
+ "top22": [
+  [
+   "PGName_Enc",
+   0.26622989773750305,
+   "structural"
+  ],
+  [
+   "BrandDesc_Enc",
+   0.16982780396938324,
+   "structural"
+  ],
+  [
+   "ASGName_Enc",
+   0.13248200714588165,
+   "structural"
+  ],
+  [
+   "SalesValCM_Scaled_mean",
+   0.1006694883108139,
+   "demand_inventory"
+  ],
+  [
+   "AGName_Enc",
+   0.1005629375576973,
+   "structural"
+  ],
+  [
+   "PGName_Enc_mean",
+   0.09534624218940735,
+   "structural"
+  ],
+  [
+   "GrossMarginPct_Scaled",
+   0.07976111024618149,
+   "financial"
+  ],
+  [
+   "OpeningStk_Scaled_mean",
+   0.07285062968730927,
+   "demand_inventory"
+  ],
+  [
+   "MAGName_Enc",
+   0.06939574331045151,
+   "structural"
+  ],
+  [
+   "MonthlySalesDensity_Scaled_mean",
+   0.06376977264881134,
+   "financial"
+  ],
+  [
+   "RSP_Scaled",
+   0.05996095761656761,
+   "financial"
+  ],
+  [
+   "TotalSalesVal_Scaled_max",
+   0.0525871142745018,
+   "demand_inventory"
+  ],
+  [
+   "GrossMarginPct_Scaled_max",
+   0.050858024507761,
+   "financial"
+  ],
+  [
+   "ClosingStkCM_Scaled_mean",
+   0.05005139485001564,
+   "demand_inventory"
+  ],
+  [
+   "ASGName_Enc_mean",
+   0.049612775444984436,
+   "structural"
+  ],
+  [
+   "BrandDesc_Enc_mean",
+   0.04803890734910965,
+   "structural"
+  ],
+  [
+   "StockVelocity_Scaled_max",
+   0.04520034044981003,
+   "financial"
+  ],
+  [
+   "CumSalesCoverageRatio_Scaled_max",
+   0.04084549471735954,
+   "demand_inventory"
+  ],
+  [
+   "OpeningStk_Scaled_max",
+   0.04015835002064705,
+   "demand_inventory"
+  ],
+  [
+   "CostPrice_Scaled",
+   0.0390252061188221,
+   "financial"
+  ],
+  [
+   "PGName_Enc_max",
+   0.03814955800771713,
+   "structural"
+  ],
+  [
+   "PCR_Scaled",
+   0.03776007145643234,
+   "financial"
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "3": {
+  "total_vs_keep": -7056232.109955534,
+  "worst1": 8906105.733333332,
+  "worst3": 9614937.218666665,
+  "total_excl_worst3": 2558705.108711131,
+  "n_cleared_that_sold": 38,
+  "n_cleared": 220
+ },
+ "6": {
+  "total_vs_keep": -7345772.641124262,
+  "worst1": 8906982.133333333,
+  "worst3": 10066265.733333332,
+  "total_excl_worst3": 2720493.092209071,
+  "n_cleared_that_sold": 34,
+  "n_cleared": 234
+ },
+ "9": {
+  "total_vs_keep": 2578965.0188479684,
+  "worst1": 369997.26666666666,
+  "worst3": 782401.9833333334,
+  "total_excl_worst3": 3361367.002181302,
+  "n_cleared_that_sold": 18,
+  "n_cleared": 245
+ }
+}
