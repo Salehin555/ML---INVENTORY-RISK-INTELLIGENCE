@@ -1,4 +1,4 @@
-# Contextual Predictive–Prescriptive Decisions for Inventory Obsolescence: How Much Side Information Adds to a Firm’s Own Decisions
+# Contextual Predictive–Prescriptive Control of Inventory Obsolescence: How Much Side Information Adds to Firm Decisions
 
 Code, aggregate results, trained policies and figures for the revised manuscript.
 
