@@ -1,4 +1,4 @@
-# Decision Value of Side Information in Inventory Obsolescence: Multistage Planning versus Multi-Agent Reinforcement Learning
+# Contextual Predictive–Prescriptive Decisions for Inventory Obsolescence: How Much Side Information Adds to a Firm’s Own Decisions
 
 Code, aggregate results, trained policies and figures for the revised manuscript.
 
